@@ -83,8 +83,6 @@ export const Typography: FC<TypographyProps> = ({
       return 'font-semibold'
     } else if (variant.startsWith('Medium')) {
       return 'font-medium'
-    } else if (variant.startsWith('Regular')) {
-      return 'font-normal'
     } else {
       return 'font-normal' // Default font weight
     }
