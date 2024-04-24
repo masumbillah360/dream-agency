@@ -6,7 +6,7 @@ import React, { useState } from "react";
 //  import icons
 
 // import { IoIosArrowForward } from "react-icons/io";
-
+// changed from masum branch
 const Faq = () => {
   const [faq, setFaq] = useState([
     {
