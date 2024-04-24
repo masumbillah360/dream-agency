@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import Image from "next/image";
+import { Typography } from "./ui/Typography";
 
 // import ui component
 // import { Typography } from "../ui/Typography";
@@ -60,13 +61,13 @@ const Footer = () => {
               >
                 <span className="text-dark_gray">Ph. No:</span> +91 95959 95959
               </div>
-              <div
-                // variant="Regular_H6"
+              <Typography
+                variant="Bold_H1"
                 className={`block `}
                 // link={config.EMAIL}
               >
                 <span className="text-dark_gray">Email:</span> info@dopamine.com
-              </div>
+              </Typography>
             </div>
             <div className="flex gap-4 mt-6">
               <Link target="_blank" href={"/"}>
