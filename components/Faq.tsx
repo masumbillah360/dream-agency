@@ -6,7 +6,7 @@ import React, { useState } from "react";
 //  import icons
 
 // import { IoIosArrowForward } from "react-icons/io";
-
+// changed from masum branch
 const Faq = () => {
   const [faq, setFaq] = useState([
     {
@@ -105,7 +105,7 @@ const Faq = () => {
   };
 
   return (
-    <section id="faq" className="py-10 bg-[#F5FAFE] sm:py-16 lg:py-24">
+    <section id="faq" className="py-10 bg-[#F5FAFE] sm:py-16 lg:py-24 mx-auto w-full">
       <div className="w-[95%] xl:max-w-7xl mx-auto">
         <div className="max-w-2xl text-center mx-auto ">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl font-Georgia tracking-wide">

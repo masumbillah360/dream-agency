@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Stats = () => {        
     return (
-        <section className="py-12 bg-gray-900 sm:py-16 lg:py-20">
+        <section className="py-12 bg-gray-900 sm:py-16 lg:py-20 w-full mx-auto">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-12 gap-x-16">
             <div className="lg:col-span-5">

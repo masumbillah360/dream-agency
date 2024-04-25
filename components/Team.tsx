@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Team = () => {        
     return (
-        <section className="py-12 overflow-hidden bg-base-900 sm:py-16 lg:py-20 xl:py-24">
+        <section className="py-12 overflow-hidden bg-base-900 sm:py-16 lg:py-20 xl:py-24 w-full m">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl xl:text-6xl">

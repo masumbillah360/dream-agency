@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import Image from "next/image";
+import { Typography } from "./ui/Typography";
 
 // import ui component
 // import { Typography } from "../ui/Typography";
@@ -40,7 +41,7 @@ const Footer = () => {
   }, [location]);
 
   return (
-    <footer className="py-8 sm:pt-16 lg:pt-20">
+    <footer className="py-8 sm:pt-16 lg:pt-20 w-full mx-auto">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col  justify-center space-y-10 lg:flex-row lg:items-start lg:justify-between lg:space-y-0">
           <div className="shrink-0 max-w-[300px]">
@@ -60,13 +61,13 @@ const Footer = () => {
               >
                 <span className="text-dark_gray">Ph. No:</span> +91 95959 95959
               </div>
-              <div
-                // variant="Regular_H6"
+              <Typography
+                variant="Bold_H1"
                 className={`block `}
                 // link={config.EMAIL}
               >
                 <span className="text-dark_gray">Email:</span> info@dopamine.com
-              </div>
+              </Typography>
             </div>
             <div className="flex gap-4 mt-6">
               <Link target="_blank" href={"/"}>
