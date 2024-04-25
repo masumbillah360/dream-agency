@@ -1,11 +1,13 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Hero = () => {        
     return (
         <section className='w-full mx-auto'>
+
     <div className="relative py-12 bg-gray-900 sm:py-16 lg:py-20 xl:pt-32 xl:pb-44">
         <div className="absolute inset-0 hidden lg:block">
-            <img className="object-cover object-right-bottom w-full h-full" src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/background.png" alt="" />
+            <Image className="object-cover object-right-bottom w-full h-full" src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/background.png" alt="background_image" height={2100} width={2100} />
         </div>
 
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
