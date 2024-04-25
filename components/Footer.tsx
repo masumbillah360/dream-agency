@@ -41,7 +41,7 @@ const Footer = () => {
   }, [location]);
 
   return (
-    <footer className="py-8 sm:pt-16 lg:pt-20">
+    <footer className="py-8 sm:pt-16 lg:pt-20 w-full mx-auto">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col  justify-center space-y-10 lg:flex-row lg:items-start lg:justify-between lg:space-y-0">
           <div className="shrink-0 max-w-[300px]">
