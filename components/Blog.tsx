@@ -4,7 +4,7 @@ import React from 'react';
 
 const Blog = () => {
   return (
-    <section className="py-12 bg-gray-50 sm:py-16 lg:py-20 xl:py-24">
+    <section className="py-12 bg-gray-50 sm:py-16 lg:py-20 xl:py-24 mx-auto w-full">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-xl mx-auto text-center">
           <p className="text-base font-semibold text-blue-600">

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Service = () => {        
     return (
-        <section className="py-10 bg-white sm:py-16 lg:py-24">
+        <section className="py-10 bg-white sm:py-16 lg:py-24 w-full mx-auto">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 text-center sm:grid-cols-2 md:grid-cols-3 lg:gap-y-16">
             <div>
