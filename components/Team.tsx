@@ -32,12 +32,12 @@ const Team = () => {
               <svg className="w-[3px] h-60 md:h-80 lg:h-96 xl:h-auto" viewBox="0 0 3 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <line x1="1.5" y1="-6.55671e-08" x2="1.50002" y2="453" stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3" />
+                  strokeWidth="3" />
                 <defs>
                   <linearGradient id="paint0_linear_534_2132" x1="0" y1="0" x2="-7.90673" y2="0.120584"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -65,12 +65,12 @@ const Team = () => {
               <svg className="w-[3px] h-60 md:h-80 lg:h-96 xl:h-auto" viewBox="0 0 3 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <line x1="1.5" y1="-6.55671e-08" x2="1.50002" y2="453" stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3" />
+                  strokeWidth="3" />
                 <defs>
                   <linearGradient id="paint0_linear_534_2132" x1="0" y1="0" x2="-7.90673" y2="0.120584"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -80,12 +80,12 @@ const Team = () => {
               <svg className="w-[3px] h-60 md:h-80 lg:h-96 xl:h-auto" viewBox="0 0 3 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <line x1="1.5" y1="-6.55671e-08" x2="1.50002" y2="453" stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3" />
+                  strokeWidth="3" />
                 <defs>
                   <linearGradient id="paint0_linear_534_2132" x1="0" y1="0" x2="-7.90673" y2="0.120584"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -131,12 +131,12 @@ const Team = () => {
               <svg className="w-[3px] h-60 md:h-80 lg:h-96 xl:h-auto" viewBox="0 0 3 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <line x1="1.5" y1="-6.55671e-08" x2="1.50002" y2="453" stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3" />
+                  strokeWidth="3" />
                 <defs>
                   <linearGradient id="paint0_linear_534_2132" x1="0" y1="0" x2="-7.90673" y2="0.120584"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -146,12 +146,12 @@ const Team = () => {
               <svg className="w-[3px] h-60 md:h-80 lg:h-96 xl:h-auto" viewBox="0 0 3 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <line x1="1.5" y1="-6.55671e-08" x2="1.50002" y2="453" stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3" />
+                  strokeWidth="3" />
                 <defs>
                   <linearGradient id="paint0_linear_534_2132" x1="0" y1="0" x2="-7.90673" y2="0.120584"
                     gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
