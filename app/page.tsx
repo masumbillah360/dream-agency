@@ -11,7 +11,7 @@ import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
-    <main className=" flex min-h-screen max-w-7xl mx-auto flex-col items-center justify-between p-24">
+    <main className=" flex min-h-screen lg:max-w-7xl mx-auto flex-col items-center justify-between lg:4 ">
       <Navbar />
       <Hero />
       <Team />
