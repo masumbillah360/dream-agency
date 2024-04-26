@@ -109,7 +109,7 @@ const Faq = () => {
       <div className="w-[95%] xl:max-w-7xl mx-auto">
         <div className="max-w-2xl text-center mx-auto ">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl font-Georgia tracking-wide">
-            Frequently Asked Questions
+            <span>Frequently</span> <span className="text-primary">Asked Questions</span>
           </h2>
           <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600 font-oracle">
             Everything you need to know about the product and billing.
