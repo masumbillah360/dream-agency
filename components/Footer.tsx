@@ -28,7 +28,7 @@ import { Typography } from "./ui/Typography";
 
 const Footer = () => {
   const location = usePathname();
-//   const setOpenModal = useSetAtom(openModalAtom);
+  //   const setOpenModal = useSetAtom(openModalAtom);
   const currentYear = new Date().getFullYear();
 
   const handleNavigation = (section: string) => {
@@ -41,17 +41,21 @@ const Footer = () => {
   }, [location]);
 
   return (
-    <footer className="py-8 sm:pt-16 lg:pt-20 w-full mx-auto">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <footer className="py-8 sm:pt-16 lg:pt-20 w-full mx-auto bg-gray-900">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-white">
         <div className="flex flex-col  justify-center space-y-10 lg:flex-row lg:items-start lg:justify-between lg:space-y-0">
           <div className="shrink-0 max-w-[300px]">
-            <div>Logo</div>
+            <div>
+              <h1 className="text-3xl font-bold">
+                Dream Agenc <br /> LOGO
+              </h1>
+            </div>
             <div
-            //   variant="Regular_H6"
+              //   variant="Regular_H6"
               className={`block mt-4 text-dark_gray`}
             >
-              Revolutionize healthcare with our cutting-edge Hospital, Doctor,
-              Patient Management SAAS tool.
+              We're an innovative design agency building high products And
+              experiences grow that your business.
             </div>
             <div className="mt-4">
               <div
@@ -59,19 +63,21 @@ const Footer = () => {
                 className={`block`}
                 // link=""
               >
-                <span className="text-dark_gray">Ph. No:</span> +91 95959 95959
+                <span className="text-dark_gray">Ph. No:</span> +1 959 599-5959
               </div>
               <Typography
-                variant="Bold_H1"
+                variant="Bold_H7"
                 className={`block `}
                 // link={config.EMAIL}
               >
-                <span className="text-dark_gray">Email:</span> info@dopamine.com
+                <span className="text-dark_gray">Email:</span>{" "}
+                info@Dreamagency.com
               </Typography>
             </div>
             <div className="flex gap-4 mt-6">
               <Link target="_blank" href={"/"}>
                 <Image src="" alt="social icon" />
+                
               </Link>
               <Link target="_blank" href={"/"}>
                 <Image src="" alt="social icon" />
@@ -90,9 +96,9 @@ const Footer = () => {
             <nav>
               <div
                 // variant="Medium_H5"
-                className=" mb-8 block text-primary"
+                className=" mb-8 block  text-white font-semibold"
               >
-                Links
+                Pages
               </div>
               <ul className="space-y-4 text-black_">
                 <li>
@@ -101,6 +107,14 @@ const Footer = () => {
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
                     Home
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => handleNavigation("home")}
+                    className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
+                  >
+                    Services
                   </button>
                 </li>
                 <li>
@@ -117,7 +131,7 @@ const Footer = () => {
                     onClick={() => handleNavigation("solution")}
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
-                    Solution
+                    Contact us
                   </button>
                 </li>
                 <li>
@@ -125,7 +139,7 @@ const Footer = () => {
                     onClick={() => handleNavigation("doctors")}
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
-                    Doctors
+                    Blogs
                   </button>
                 </li>
                 <li>
@@ -133,7 +147,15 @@ const Footer = () => {
                     onClick={() => handleNavigation("blog")}
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
-                    Blogs
+                    Terms & Conditions
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => handleNavigation("blog")}
+                    className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
+                  >
+                    Privacy Policy
                   </button>
                 </li>
               </ul>
@@ -143,19 +165,19 @@ const Footer = () => {
             <nav>
               <div
                 // variant="Medium_H5"
-                className=" mb-8 block text-primary"
+                className=" mb-8 block text-white font-semibold"
               >
-                Others
+                Services
               </div>
               <ul className="space-y-4 text-black_">
                 <li>
                   <button
                     onClick={() => {
-                    //   setOpenModal(true);
+                      //   setOpenModal(true);
                     }}
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
-                    Contact us
+                    Web Development
                   </button>
                 </li>
                 <li>
@@ -164,7 +186,7 @@ const Footer = () => {
                     target="_blank"
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
-                    Help & Support
+                    UX & UI Design
                   </Link>
                 </li>
 
@@ -174,10 +196,10 @@ const Footer = () => {
                     target="_blank"
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
                   >
-                    Terms & Conditions
+                    Digital Marketing
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/privacy-policy"
                     target="_blank"
@@ -185,7 +207,7 @@ const Footer = () => {
                   >
                     Privacy Policy
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
@@ -195,13 +217,13 @@ const Footer = () => {
             <div className="">
               <div className="max-w-[300px]">
                 <div
-                //   variant="Medium_H5"
-                  className={`block text-primary`}
+                  //   variant="Medium_H5"
+                  className={`block text-white font-semibold`}
                 >
                   Newsletter
                 </div>
                 <div
-                //   variant="Regular_H6"
+                  //   variant="Regular_H6"
                   className={`block text-dark_gray mt-2`}
                 >
                   Stay ahead with our newsletter. Get updates, insights, and
@@ -227,10 +249,11 @@ const Footer = () => {
 
         <div className="mt-12 border-t  pt-8 sm:mt-16 lg:mt-20">
           <div className="text-center">
-            <div 
-            // variant="Regular_H7"
-             className=" block">
-              © {currentYear} Dopamine. All rights reserved.
+            <div
+              // variant="Regular_H7"
+              className=" block"
+            >
+              © {currentYear} Dream Agency. All rights reserved.
             </div>
           </div>
         </div>
