@@ -66,11 +66,11 @@ const Testimonials = () => {
           spaceBetween={30}
           centeredSlides={true}
           loop={true}
-          /* autoplay={{
+          autoplay={{
             delay: 2000,
 
             disableOnInteraction: false,
-          }} */
+          }}
           pagination={{
             clickable: true,
           }}
