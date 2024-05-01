@@ -8,7 +8,8 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'landingfoliocom.imgix.net'
+        hostname: 'landingfoliocom.imgix.net',
+        hostname:'i.ibb.co'
       }
     ],
   },
