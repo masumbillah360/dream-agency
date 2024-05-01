@@ -10,82 +10,96 @@ import React, { useState } from "react";
 const Faq = () => {
   const [faq, setFaq] = useState([
     {
-      question: "Why should I consider Credence Tec for IT services?",
+      question: "How do I get started with your services?",
       answer:
-        "Credence Tec stands out as a preferred choice for IT services due to its robust team of highly skilled technicians and engineers. Our professionals bring a wealth of technical expertise and experience to the table, ensuring that your IT infrastructure is in capable hands. Moreover, we offer affordable and competitive commercial packages, making Credence Tec a reliable partner for your IT support needs.",
+        "Getting started is easy! Simply reach out to us through our contact page or fill out the inquiry form. We'll get back to you promptly to discuss your project requirements and how we can help.",
       open: false,
     },
     {
-      question: "What services does Credence Tec provide?",
+      question: "What types of websites do you develop?",
       answer:
-        "Credence Tec specializes in a comprehensive range of IT services, including but not limited to:",
+        "We specialize in a wide range of websites, including but not limited to:",
       point: [
-        { line: "Annual Maintenance Contracts (AMC) for IT systems" },
-        { line: "Server and Storage Maintenance" },
-        { line: "Desktop and Laptop Maintenance" },
-        { line: "Network Maintenance" },
-        { line: "Hardware Rental Services" },
-        { line: "Firmware Updates and Support" },
-        { line: "On-Demand Technical Support" },
+        { line: "Business websites" },
+        { line: "E-commerce websites" },
+        { line: "Portfolio websites" },
+        { line: "Blogs" },
+        { line: "Custom web applications" },
+        // { line: "Firmware Updates and Support" },
+        // { line: "On-Demand Technical Support" },
       ],
       open: false,
     },
     {
-      question: "How experienced is the technical team at Credence Tec?",
+      question: "What is your pricing model?",
       answer:
-        "Our technical team at Credence Tec comprises seasoned professionals with a wealth of experience in the IT industry. Each member of our team undergoes rigorous training and possesses the necessary certifications to handle diverse IT challenges effectively.",
+        "Our pricing depends on the scope and complexity of the project. We offer competitive rates tailored to fit your budget. Get in touch with us to discuss your project specifics, and we'll provide you with a detailed quote.",
       open: false,
     },
     {
-      question: "What sets Credence Tec apart from other IT service providers?",
+      question: "How long does it take to build a website?",
       answer:
-        "Credence Tec distinguishes itself through a combination of factors, including:",
-      point: [
-        { line: "Annual Maintenance Contracts (AMC) for IT systems" },
-        {
-          line: "Proven Track Record: With a successful history of serving diverse clients, we have a track record of delivering reliable and efficient IT solutions.",
-        },
-        {
-          line: "Global Presence: Headquartered in Chennai, Credence Tec has an international presence in China, Malaysia, and Gulf Countries, enabling us to serve clients globally.",
-        },
-        {
-          line: "Client-Centric Approach: Our client-centric approach ensures that we tailor our services to meet the unique needs and challenges of each client.",
-        },
-        {
-          line: "Cost-Effective Solutions: We offer competitive and affordable commercial packages, ensuring that our clients receive value for their investment.",
-        },
-        {
-          line: "Sales of new equipment: comprehensive range of high-quality IT equipment tailored to your needs. Whether you're upgrading your infrastructure or starting anew, Credence Tec offers top-notch products, ensuring reliability and cutting-edge technology.",
-        },
-        {
-          line: "Rental Services:  Optimize your resource utilization with our IT equipment rental services. From servers and storage to laptops and network switches, access state-of-the-art technology on a flexible rental basis, meeting your requirements.",
-        },
-      ],
+        "The timeline for website development varies based on the project's size, complexity, and your specific requirements. Simple websites can be completed in a matter of weeks, while more complex projects may take several months. We'll provide you with a detailed project timeline during the initial consultation.",
+      // point: [
+      //   { line: "Annual Maintenance Contracts (AMC) for IT systems" },
+      //   {
+      //     line: "Proven Track Record: With a successful history of serving diverse clients, we have a track record of delivering reliable and efficient IT solutions.",
+      //   },
+      //   {
+      //     line: "Global Presence: Headquartered in Chennai, Credence Tec has an international presence in China, Malaysia, and Gulf Countries, enabling us to serve clients globally.",
+      //   },
+      //   {
+      //     line: "Client-Centric Approach: Our client-centric approach ensures that we tailor our services to meet the unique needs and challenges of each client.",
+      //   },
+      //   {
+      //     line: "Cost-Effective Solutions: We offer competitive and affordable commercial packages, ensuring that our clients receive value for their investment.",
+      //   },
+      //   {
+      //     line: "Sales of new equipment: comprehensive range of high-quality IT equipment tailored to your needs. Whether you're upgrading your infrastructure or starting anew, Credence Tec offers top-notch products, ensuring reliability and cutting-edge technology.",
+      //   },
+      //   {
+      //     line: "Rental Services:  Optimize your resource utilization with our IT equipment rental services. From servers and storage to laptops and network switches, access state-of-the-art technology on a flexible rental basis, meeting your requirements.",
+      //   },
+      // ],
       open: false,
     },
     {
-      question: "Does Credence Tec provide 24/7 support?",
+      question: "Do you provide website maintenance services?",
       answer:
-        "Yes, Credence Tec understands the critical nature of IT infrastructure. Therefore, we provide round-the-clock support to address any issues or emergencies that may arise, ensuring minimal downtime for your operations.",
+        "Yes, we offer website maintenance services to ensure your website stays up-to-date, secure, and optimized. Whether you need occasional updates or ongoing maintenance, we have a plan to suit your needs.",
       open: false,
     },
     {
-      question: "How can I initiate a partnership with Credence Tec?",
+      question: "Will my website be mobile-friendly?",
       answer:
-        "Initiating a partnership with Credence Tec is simple. You can reach out to our team through our website or contact us directly via email or phone. Our representatives will guide you through the process of understanding your specific requirements and tailoring a solution that best suits your needs.",
+        "Absolutely! All websites we develop are fully responsive, meaning they adapt seamlessly to different screen sizes and devices, including smartphones, tablets, and desktops.",
       open: false,
     },
     {
-      question: "What geographical locations does Credence Tec serve?",
+      question: "Can you help with search engine optimization (SEO)?",
       answer:
-        "Credence Tec offers its IT services across India and internationally, with a presence in China, Malaysia, and Gulf Countries. Our widespread coverage ensures that clients from various locations can benefit from our expertise and support.",
+        "Yes, we offer SEO services to help improve your website's visibility in search engine results. From keyword research to on-page optimization, we can help you attract more organic traffic to your website.",
       open: false,
     },
     {
       question:
-        "Why should I choose Credence Tec over OEM for IT maintenance services?",
+        "Do you provide hosting services?",
       answer:
-        "Credence Tec offers several advantages over Original Equipment Manufacturer (OEM) services. Firstly, we provide personalized and flexible solutions tailored to your specific needs. Our services are not confined to a particular brand or model, allowing us to support a diverse range of equipment from multiple vendors. Additionally, Credence Tec often presents a cost-effective alternative to OEM services, offering competitive pricing without compromising on quality. We pride ourselves on quick response times, ensuring prompt issue resolution and minimal downtime. Ultimately, our third-party maintenance services are designed to deliver value, reliability, and a customer-centric approach.",
+        "While we don't provide hosting directly, we can recommend trusted hosting providers and assist you with the setup and migration process if needed.",
+      open: false,
+    },
+    {
+      question:
+        " What sets your agency apart from others?",
+      answer:
+        "Our agency is dedicated to delivering high-quality, custom solutions tailored to each client's unique needs. We prioritize communication, transparency, and customer satisfaction throughout the entire development process.",
+      open: false,
+    },
+    {
+      question:
+        "How can I contact you for support?",
+      answer:
+        "You can reach out to us via email, phone, or through our website's contact form. We're here to help with any questions or issues you may have, even after your website is live.",
       open: false,
     },
   ]);

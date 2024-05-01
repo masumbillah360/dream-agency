@@ -98,7 +98,7 @@ const Footer = () => {
                 // variant="Medium_H5"
                 className=" mb-8 block  text-white font-semibold"
               >
-                Pages
+                Links
               </div>
               <ul className="space-y-4 text-black_">
                 <li>
@@ -134,7 +134,20 @@ const Footer = () => {
                     Contact us
                   </button>
                 </li>
-                <li>
+               
+              </ul>
+            </nav>
+
+            {/* Other Links */}
+            <nav>
+              <div
+                // variant="Medium_H5"
+                className=" mb-8 block text-white font-semibold"
+              >
+               Others
+              </div>
+              <ul className="space-y-4 text-black_">
+              <li>
                   <button
                     onClick={() => handleNavigation("doctors")}
                     className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
@@ -158,56 +171,6 @@ const Footer = () => {
                     Privacy Policy
                   </button>
                 </li>
-              </ul>
-            </nav>
-
-            {/* Other Links */}
-            <nav>
-              <div
-                // variant="Medium_H5"
-                className=" mb-8 block text-white font-semibold"
-              >
-                Services
-              </div>
-              <ul className="space-y-4 text-black_">
-                <li>
-                  <button
-                    onClick={() => {
-                      //   setOpenModal(true);
-                    }}
-                    className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
-                  >
-                    Web Development
-                  </button>
-                </li>
-                <li>
-                  <Link
-                    href="/help-support"
-                    target="_blank"
-                    className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
-                  >
-                    UX & UI Design
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/terms-conditions"
-                    target="_blank"
-                    className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
-                  >
-                    Digital Marketing
-                  </Link>
-                </li>
-                {/* <li>
-                  <Link
-                    href="/privacy-policy"
-                    target="_blank"
-                    className="block text-base font-medium  transition-all duration-200 hover:translate-x-1 "
-                  >
-                    Privacy Policy
-                  </Link>
-                </li> */}
               </ul>
             </nav>
           </div>

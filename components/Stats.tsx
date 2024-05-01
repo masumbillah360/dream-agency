@@ -1,13 +1,31 @@
+"use client"
 import React, { useState } from 'react';
+import CountUp from "react-countup";
+import { Typography } from './ui/Typography';
 
 const Stats = () => {        
     return (
         <section className="py-12 bg-gray-900 sm:py-16 lg:py-20 w-full mx-auto">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-12 gap-x-16">
+        <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-12 gap-x-16 items-center">
             <div className="lg:col-span-5">
-                <h2 className="text-3xl font-bold text-white sm:text-4xl xl:text-5xl font-pj">Make beautiful landing pages using Rareblocks.</h2>
-                <p className="mt-6 text-lg font-normal text-gray-200 font-pj">You can easily build anything with Rareblocks</p>
+            <Typography
+                variant="Bold_H2"
+                className={`block text-white`}
+                // link={config.EMAIL}
+              >
+                
+                Make beautiful Website
+              </Typography>
+              <Typography
+                variant="Bold_H6"
+                className={`block text-white`}
+                // link={config.EMAIL}
+              >
+                
+                We turn imagination into reality. Partner with us.
+              </Typography>
+                
             </div>
 
             <div className="lg:col-span-7">
@@ -24,7 +42,8 @@ const Stats = () => {
                                     />
                                 </svg>
                                 <div className="ml-8">
-                                    <p className="text-5xl font-bold text-white font-pj">1,394</p>
+                                <CountUp className="text-5xl font-bold text-white font-pj" end={1394} duration={5} />
+                                    
                                     <p className="mt-3 text-lg font-normal leading-tight text-gray-300 font-pj">Successful Projects</p>
                                 </div>
                             </div>
@@ -38,7 +57,7 @@ const Stats = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                                 </svg>
                                 <div className="ml-8">
-                                    <p className="text-5xl font-bold text-white font-pj">477</p>
+                                <CountUp className="text-5xl font-bold text-white font-pj" end={477} duration={5} />
                                     <p className="mt-3 text-lg font-normal leading-tight text-gray-300 font-pj">Happy Clients</p>
                                 </div>
                             </div>
@@ -52,7 +71,9 @@ const Stats = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                                 </svg>
                                 <div className="ml-8">
-                                    <p className="text-5xl font-bold text-white font-pj">~10K</p>
+                                <div className='flex'>
+                                <CountUp className="text-5xl font-bold text-white font-pj" end={10} duration={5} /> <p className="text-5xl font-bold text-white font-pj">K</p>
+                                </div>
                                     <p className="mt-3 text-lg font-normal leading-tight text-gray-300 font-pj">Monthly Visitors</p>
                                 </div>
                             </div>
@@ -71,7 +92,9 @@ const Stats = () => {
                                     />
                                 </svg>
                                 <div className="ml-8">
-                                    <p className="text-5xl font-bold text-white font-pj">3k</p>
+                                <div className='flex'>
+                                <CountUp className="text-5xl font-bold text-white font-pj" end={3} duration={5} /> <p className="text-5xl font-bold text-white font-pj">K</p>
+                                </div>
                                     <p className="mt-3 text-lg font-normal leading-tight text-gray-300 font-pj">Email Subscribers</p>
                                 </div>
                             </div>
